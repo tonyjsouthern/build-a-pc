@@ -13,6 +13,12 @@ function config ($stateProvider, $urlRouterProvider) {
     controller: 'HomeController as vm'
   })
 
+  .state('root.login', {
+    url: '/login',
+    templateUrl: 'templates/login.templ.html',
+    controller: 'LoginController as vm'
+  })
+
     $urlRouterProvider.otherwise('/');
 
 }
