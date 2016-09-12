@@ -1,0 +1,19 @@
+@import 'bulma';
+
+.container {
+  width: 1100px;
+  margin: 5px auto;
+}
+
+.nav {
+  border: solid 1px lightgrey;
+  border-radius: 5px;
+}
+
+.nav-right {
+  padding-right: 10px;
+}
+
+.nav-left {
+  padding-left: 10px;
+}
