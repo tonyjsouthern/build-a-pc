@@ -35,3 +35,41 @@ html {
 .login-box input {
   margin: 0 auto;
 }
+
+.is-3 {
+  text-align: center;
+}
+
+.is-4 {
+  text-align: center;
+  border-bottom: solid 1px lightgrey;
+  padding-bottom: 10px;
+}
+
+// featured builds CSS
+
+.feat {
+  width: 10%;
+  margin: 0px 5px 0px 5px;
+  padding-bottom: 10px;
+}
+
+.featured-cont {
+  border-bottom: solid 1px lightgrey;
+  margin-bottom: 20px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feat-cpu-image{
+margin: 0 auto;
+}
+
+.feat-cpu-title {
+ text-align: center;
+}
+
+.feat-cpu-desx {
+  text-align: center;
+}
